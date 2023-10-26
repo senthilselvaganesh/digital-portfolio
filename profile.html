@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>selvaganesh.s -portfolio</title>
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+             margin: 0;
+            padding: 0;
+            background-color: rgb(129, 200, 209)
+        } 
+        header{
+            background-color:rgb(86, 121, 126);
+            color:rgb(20, 5, 5);
+            text-align: center;
+            padding: 1.5rem 0;
+            position: sticky; 
+        }
+        .header-content h1{
+            font-family:Agbalumo;
+            font-size:3rem;  
+        }
+        /* Add styles for the round profile picture*/
+        .profile-picture{
+            width: 100px;
+            height: 100px;
+            border-radius: 90%;
+            object-fit:cover;
+            position:absolute;
+            top:130px;
+            right: 100px;
+        }
+        nav {
+            color:currentColor;
+            text-align: center;
+        }
+        nav u1 {
+            list-style-type:none;
+            padding: 0px;
+
+        }
+
+        nav u1 li{
+            display:inline;
+            margin:0 20px;
+        }
+        
+        nav u1 li a{
+            text-decoration:dotted;
+            color:black;
+        }
+        .section-content{
+            background-color:rgb(169, 243, 166);
+            padding:02rem;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin:1rem;
+            border-radius: 10px;
+            box-shadow: 0 20px black;       
+         }
+          .download-button{
+            background-color:black;
+            color:bisque;
+            padding:0.5rem 1 rem;
+            text-decoration:dotted;
+            border-radius: 20px;
+            display:inline-block;
+            margin-top: 10px;
+          }
+          .download-button:hover  {
+                background-color:rgb(233, 245, 245);
+          }
+          footer{
+              text-align:right;
+              padding: 0.5rem 0;
+              background-color:black;
+              color:rgb(239, 222, 200);         
+            }
+            <u1>{
+                list-style-type:disc;
+                padding-block:initial;
+            }
+
+            </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <img src="c:\Users\senthilselvadurga\Downloads\selvaganesh.jpeg.jpg" alt="your profile picture" class="profile-picture">
+        <h1>SELVAGANESH.S</h1>
+        <p>i am *Bsc student*</p>
+        </div>
+    </header>
+
+    <nav>
+        <u1>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#qualification">Qualification</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#personal Tool">Personal tool</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </u1>
+    </nav>
+
+
+     <section id="~~**CONTACT**~~">
+        <div class="section-content">
+           <h2> contact</h2>
+        <u1>
+           <li> PHONE:6382552723</li>
+           <li> e mail:SELVAGANESHSENTHIL4@GMAIL.COM</li>
+           <li> Town: UDAIYALUR</li>
+        </u1>
+        </div>
+     </section>
+     
+
+     <section id="QUALIFICATION DETAILS">
+        <div class="section-content">
+            <h2>Education</h2>
+            <u1>
+        <li> MASS collage of arts & science-  3RD bsc(cs)</li>
+        <li> ANNA govt model hr sec school-hsc & sslc </li>
+        </u1>
+        </div>
+     </section>
+
+     <section id="SKILLS">
+        <div class="section-content">
+            <h2>skills</h2>
+            <u1>
+                <li>C</li>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>COMPUTER NETWORKING</li>
+            </u1>
+        </div>
+     </section>
+
+
+     <section id="PERSONAL TOOL">
+        <div class="section-content">
+            <h2>personal tool</h2>
+            <u1>
+                <li>NAME            :Selvaganesh.S</a></li>
+                <li>FATHER'S NAME   :Senthil.U</a></li>
+                <li>D.O.B           : 15.11.2003</a></li>
+                <li>GENDER          : male</a></li>
+                <li>MARITAL STATUS  : UNMARRIED</a></li>
+                <li>RELIGION        :Hindu</a></li>
+                <li>NATIONALITY     : Indian</a></li>    
+                <li>LANGUAGES KNOWN : English & Tamil</a></li>
+                <li>BLOOD GROUP     :A1B +ve</a></li>
+                <li>ADDRESS         :9/717,Keela street,
+                                      Udaiyalur,Kumbhakonam,
+                                      Thanjavur-612804</li>
+            </u1>
+        </div>
+     </section>
+    <section id="RESUME">
+        <center>
+        <div class="section-content">
+            <h2>Resume</h2>
+            <a href="c:\Users\senthilselvadurga\Documents\Resume_SELVAGANESH S_Format7.PDF" Class="Download-button"> download cv</a>></a>
+        </div>
+    </center>
+</section>
+   <footer>
+
+    <p>2023 selvaganesh.s</p>
+    
+   </footer>
+</section>
+
+
+         <script>
+            // smooth scrolling to section when clicking on navigation links
+            document.querySelectorAll('a[href^="#"]').for each other (anchor => {
+                anchor.addEventListener('click',function(e){
+                    e.preventDefault();
+
+                    const tergetId= this.getAttribute('href').substring(1);
+                    const tergetElement = document.getElementById(terget);
+
+                    if (tergtElement){
+                        window.scrollTo({
+                            top:tergetElement.offsetTop,
+                            behavior:"instant"
+
+                        });
+
+                    }
+                });
+            });
+                  </script>
+    </body>
+</html>
+
+
+
